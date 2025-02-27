@@ -5,7 +5,8 @@
 ssh-keygen -t ed25519 -C "marco.gamaliel@gmail.com"
 
 # ~/.ssh/my_git
-cat ~/.ssh/my_git.pub | pbcopy 
+mv my_git* ~/.ssh
+cat ~/.ssh/my_git.pub | pbcopy
 
 ssh-add ~/.ssh/my_git
 ```
@@ -23,4 +24,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 
+```
+
+## Raycast
+Es una aplicación que permite a los usuarios realizar tareas rápidamente mediante atajos de teclado y comandos personalizados. Raycast mejora la productividad al proporcionar una interfaz rápida y eficiente para acceder a aplicaciones, archivos y otras funciones del sistema.
+
+### install
+```bash
+brew install raycast
 ```
