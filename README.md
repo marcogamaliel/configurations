@@ -9,6 +9,14 @@ mv my_git* ~/.ssh
 cat ~/.ssh/my_git.pub | pbcopy
 
 ssh-add ~/.ssh/my_git
+
+git config --global user.email marco.gamaliel@gmail.com
+git config --global user.name "Marco Galindo"
+```
+
+## iterm2
+```bash
+brew install iterm2
 ```
 
 ## Oh-my-zsh
@@ -29,7 +37,34 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 ## Raycast
 Es una aplicación que permite a los usuarios realizar tareas rápidamente mediante atajos de teclado y comandos personalizados. Raycast mejora la productividad al proporcionar una interfaz rápida y eficiente para acceder a aplicaciones, archivos y otras funciones del sistema.
 
-### install
+### Install
+
 ```bash
 brew install raycast
 ```
+
+### Extensiones a instalar desde el store
+- github
+- google translate
+- todoist
+
+
+## Desarrollo
+### install nvm y pyenv
+``` bash
+brew install nvm
+source ~/.zshrc
+# Se debe instalar la versión que se desea instalar como defecto (ya que es la primera instalada)
+nvm install 20
+brew instal pyenv
+pyenv install 3.12
+gyenv global 3.12
+```
+
+## Otras
+### instalación
+```bash
+brew install caffeine
+brew install rectangle
+```
+
