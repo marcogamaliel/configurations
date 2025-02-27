@@ -74,8 +74,12 @@ git-flow
 golang
 npm
 z
+web-search
+dirhistory
+jsontools
 zsh-autosuggestions
 zsh-syntax-highlighting
+zsh-history-substring-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -109,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias zshconfig="vim ~/.zshrc"
 
-export GOPATH=$HOME/Documents/projects/go-workspace # don't forget to change your path correctly!
+export GOPATH=$HOME/Documents/projects/go # don't forget to change your path correctly!
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
