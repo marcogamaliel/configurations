@@ -47,6 +47,15 @@ brew install raycast
 - github
 - google translate
 - todoist
+- Pomodoro
+- Easy OCR
+
+### Easy Ocr
+para poder usar Easy OCR se debe instalar
+```
+brew install tesseract
+brew install tesseract-lang
+```
 
 
 ## Desarrollo
